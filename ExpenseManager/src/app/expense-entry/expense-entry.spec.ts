@@ -8,6 +8,7 @@ describe('ExpenseEntry', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+      
       imports: [ExpenseEntry],
     }).compileComponents();
 
@@ -17,7 +18,7 @@ describe('ExpenseEntry', () => {
   });
 
   it('should create', () => {
-    
+
     expect(component).toBeTruthy();
   });
 });
