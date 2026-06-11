@@ -10,8 +10,9 @@ export class ExpenseEntry implements OnInit {
 
   title: any;
   constructor(){}
+  
   ngOnInit(): void{
-    
+
     this.title = "Expense Entry"
   }
 }
